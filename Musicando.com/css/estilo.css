@@ -1,0 +1,132 @@
+body{
+	background-color: #FFE4B5;
+}
+.topo{
+	width: auto;
+	height: 55px;
+	background-color: #F0E68C;
+	border-width: 1px;
+    border-color: black;
+    border-style: solid;
+    padding: 2px;
+    text-align: center;
+}
+.menu{
+	width: auto;
+	height: 60%;
+	background-color: #FFF8DC;
+}
+form{
+	width: 300px;
+	height: 300px;
+	padding: 3%;
+	margin-top: 12%;
+    margin-left: 18%;
+}
+.tela{
+	width: 475px;
+	height: 404px;
+	background-color: #DCDCDC;
+	position: absolute;
+	margin-left: 30%;
+	margin-top: 10%;
+	border-width: 1px;
+    border-color: black;
+    border-style: solid;
+}
+.cont1{
+	width: auto;
+	height: 100%;
+	border-width: 1px;
+	margin-top: 2%;
+    border-color: black;
+    border-style: solid;
+    padding: 2px;
+}
+.cont2{
+	width: auto;
+	height: 100%;
+	border-width: 1px;
+    border-color: black;
+    border-style: solid;
+    padding: 2px;
+}
+.cont3{
+	width: auto;
+	height: 100%;
+	border-width: 1px;
+    border-color: black;
+    border-style: solid;
+    padding: 2px;
+}
+.img1{
+	width: 20%;
+	height: 100%;
+	border-style: solid;
+	border-color: black;
+	border-width: 1px;
+}
+.img2{
+	width: 20%;
+	height: 100%;
+	border-style: solid;
+	border-color: black;
+	border-width: 1px;
+}
+.img3{
+	width: 20%;
+	height: 100%;
+	border-style: solid;
+	border-color: black;
+	border-width: 1px;
+}
+.rodape{
+	width: auto;
+	height: 90px;
+	background-color: #F0E68C;
+	border-width: 1px;
+    border-color: black;
+    border-style: solid;
+    margin-top: 57%;
+}
+
+.a{
+	font-family: 'verdana';
+    font-size: 20px;
+    text-align: center;
+    color: #000000;
+}
+input{
+	margin-top: 10%;
+	margin-left: 8%;
+    padding: 8px;
+    border: none;
+    outline: none;
+    border-radius: 15px;
+}
+#submit{
+	margin-top: 10%;
+	margin-left: 8%;
+	background-color: aliceblue;
+    border: none;
+    padding: 10px;
+    width: 90%;
+    border-radius: 6px;
+    color: blue;
+    font-size: 15px;
+}
+#submit:hover{
+    background-color: #77ffc096;
+    cursor: pointer;
+}
+.h1{
+	font-family: 'verdana';
+    font-size: 25px;
+    text-align: center;
+    color: #000000;
+}
+h2{
+	font-family: 'verdana';
+    text-align: center;
+    color: #000000;
+}
