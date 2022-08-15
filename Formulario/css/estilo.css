@@ -1,0 +1,19 @@
+body{
+	background-color: #FFE4B5
+}
+.tela-login{
+	background: #FFFFE0;
+    position: absolute;
+    top: 25%;
+    left: 30%;
+    padding: 80px;
+    width: 160px;
+    height: 303px;
+    border-radius: 15px;
+}
+.form{
+	font-family: 'arial';
+	font-size: 25px;
+	text-align: center;
+	font-weight: bold;
+}

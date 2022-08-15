@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<meta charset="utf-8">
+<link rel="stylesheet" type="text/css" href="css/estilo.css">
+<head>
+	<title>Exemplo - formulario</title>
+</head>
+<body>
+	<div class="tela-login">
+		<div class="form">Formulario</div><br><br>
+		<form method="post" action="?action=save" name="meuForm">
+			Nome:<input type="TEXT" name="CAMPO_NOME">
+			<br>Idade:<input type="TEXT" name="CAMPO_IDADE">
+			<br>Email:<input type="TEXT" name="CAMPO_EMAIL">
+			<br>Sexo: <input type="RADIO" name="CAMPO_SEXO" value="M">Masculino
+			<input type="RADIO" name="CAMPO_SEXO" value="F">Feminino
+			<br>Curso: <SELECT name=CAMPO_CURSO>
+				<option selected>Selecione...</option>
+				<option>Ciência da computação</option>
+				<option>Bacharelado em informatica</option>
+			</SELECT>
+			<br>Conhecimentos:
+			<input type="CHECKBOX" name=CAMPO_CONHECIMENTOS[] value="Word"> Microsoft word
+			<input type="CHECKBOX" name=CAMPO_CONHECIMENTOS[] value="html"> HTML
+			<input type="CHECKBOX" name=CAMPO_CONHECIMENTOS[] value="js"> JavaScript
+			<input type="CHECKBOX" name=CAMPO_CONHECIMENTOS[] value="php"> PHP
+	
+			<br>
+			<input type= reset name="Limpar">
+			<input type="submit" name="Enviar">
+		</form>
+	</div>	
+</body>
+</html>
